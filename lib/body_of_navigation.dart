@@ -22,7 +22,7 @@ class BodyOfNavigation extends StatelessWidget {
             size: 70,
             color: Colors.purple[300],
           ),
-          SizedBox(height: 16),
+         const SizedBox(height: 16),
           Text(
             titleText,
             style: TextStyle(
@@ -30,7 +30,7 @@ class BodyOfNavigation extends StatelessWidget {
                 color: Colors.purple[300],
                 fontWeight: FontWeight.bold),
           ),
-          SizedBox(height: 16),
+        const  SizedBox(height: 16),
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 12),
             decoration: BoxDecoration(
@@ -47,7 +47,7 @@ class BodyOfNavigation extends StatelessWidget {
                 ),
                 Text(
                   text,
-                  style: TextStyle(color: Colors.white),
+                  style: const TextStyle(color: Colors.white),
                 ),
               ],
             ),
